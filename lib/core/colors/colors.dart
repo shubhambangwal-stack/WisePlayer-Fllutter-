@@ -1,0 +1,53 @@
+import 'dart:ui';
+
+class AppColor {
+  static const Color lightGrey = Color(0xFFB3B3B3);
+  static const Color black = Color(0xFF000000);
+  static const Color background = Color(0xFF21242A);
+  static const Color darkGrey = Color(0xFF505050);
+  static const Color darkRed = Color(0xFFC1161F);
+  static const Color moreLightGrey = Color(0xFFCFCFD9);
+  static const Color midGrey = Color(0xFF9F9F9F);
+
+  static const Color charcoal = Color(0xFF424141);
+  static const Color red = Color(0xFFC61917);
+  static const Color paleGrey = Color(0xFFBCB6B6);
+  static const Color deepGrey = Color(0xFF373737);
+  static const Color veryLightGrey = Color(0xFFD9D9D9);
+  static const Color softYellow = Color(0xFFFACC63);
+  static const Color steelGrey = Color(0xFF95969C);
+  static const Color wineRed = Color(0xFFA51B1B);
+  static const Color silver = Color(0xFFCFCFCF);
+  static const Color coralRed = Color(0xFFD8372F);
+  static const Color lightAsh = Color(0xFFD8D7D7);
+  static const Color maroon = Color(0xFF991821);
+  static const Color lavenderGrey = Color(0xFFC5BDC8);
+  static const Color brownGrey = Color(0xFF595252);
+  static const Color mustard = Color(0xFFF4C74F);
+  static const Color lightGold = Color(0xFFFDD689);
+  static const Color oliveGreen = Color(0xFF6E8834);
+  static const Color grey = Color(0xFFAAAAAA);
+  static const Color peach = Color(0xFFFFE4B4);
+  static const Color white = Color(0xFFFFFFFF);
+  static const Color forestGreen = Color(0xFF38491D);
+  static const Color darkGrey2 = Color(0xFF5A5A5A);
+  static const Color mossGreen = Color(0xFF60713E);
+  static const Color darkBrownRed = Color(0xFF71161E);
+  static const Color sageGreen = Color(0xFF85987C);
+  static const Color warmBrown = Color(0xFF875B54);
+  static const Color lightGreen = Color(0xFF91D357);
+  static const Color limeGreen = Color(0xFFB2D85F);
+  static const Color neonGreen = Color(0xFFB7DF49);
+  static const Color greyLavender = Color(0xFFCDC2C9);
+  static const Color softRed = Color(0xFFE1504F);
+  static const Color orangeRed = Color(0xFFF05916);
+  static const Color orange = Color(0xFFF6922C);
+  static const Color brightYellow = Color(0xFFFEB804);
+  static const Color cream = Color(0xFFFEE4B4);
+  static const Color deepOrange = Color(0xFFFF8E00);
+  static const Color lightOrange = Color(0xFFFFA726);
+  static const Color golden = Color(0xFFFFB803);
+  static const Color pastelYellow = Color(0xFFFFE265);
+  static const Color transparent = Color(0x00000000);
+  static const Color darkBlue = Color(0xff33537D);
+}

@@ -1,0 +1,29 @@
+
+wise_players:
+TODO: lib\presentation\screen_view\common\auth\fetch_phone_info_mac.dart
+Refactor the API calls in checkUserStatus() to run in parallel and handle errors more gracefully.
+Extract device registration logic from getDeviceInfo0() into a separate service class for better testability.
+Add proper loading state management instead of using a fixed 1-second delay in the refresh button.
+Implement retry logic with exponential backoff for failed API requests.
+Securely store the device key and token using encrypted storage instead of plain shared preferences.
+Add null-safety and type validation for all API response fields before saving to SharedPref.
+Replace hardcoded QR image URL with a dynamic value returned from the backend.
+Disable or hide action buttons while API requests are in progress to prevent duplicate calls.
+Add unit tests and widget tests for device status flow and activation UI states.
+Improve user feedback by showing success/error snackbars after refresh and activation attempts.
+
+
+TODo: lib\data\_api\api_services\api_services.dart
+Centralize base URL handling to avoid mixing relative paths and $baseUrl$endpoint patterns.
+Add request and response interceptors for logging, token injection, and common error handling.
+
+
+
+Create a unified error parser to convert Dio errors into consistent user-friendly messages.
+Extract status code checks into a reusable helper to remove duplicated 200/201 logic.
+Implement timeout and retry policies for network resilience.
+Add generic typing to hitPostApi so it can return strongly typed response models.
+Move hardcoded endpoint strings to the Endpoints constants for consistency.
+Support optional headers (device token and fingerprint) in validateStatus via parameters.
+Add unit tests with mocked Dio client to verify success and failure scenarios.
+Introduce a base API method wrapper to standardize all POST requests and reduce boilerplate.
