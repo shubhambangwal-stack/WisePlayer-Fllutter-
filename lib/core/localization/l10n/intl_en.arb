@@ -1,0 +1,19 @@
+{
+  "@@locale": "en",
+ "exit": "Exit",
+ "okk": "Okk",
+ "cancel": "Cancel",
+  "exitConfirmMessage": "Are you sure you want to exit?",
+  "macNotAssociated": "Your MAC address is not associated with any playlist",
+  "uploadPlaylist": "Upload Playlist",
+  "refresh": "Refresh",
+  "language": "Language (EN)",
+  "power": "Power",
+
+  "playerNotActive": "This player is not active yet. Activate your subscription to access content.",
+  "activateNow": "Activate Now",
+
+  "macLabel": "Your MAC",
+  "tvOnlyWarning": "WisePlayer.app is a TV player only and does not include any channels"
+}
+

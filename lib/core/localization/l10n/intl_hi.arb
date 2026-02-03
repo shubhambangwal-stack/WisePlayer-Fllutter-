@@ -1,0 +1,18 @@
+{
+  "@@locale": "hi",
+  "okk": "ठीक है",
+"cancel": "नहीं",
+  "exit": "बाहर निकलें",
+  "exitConfirmMessage": "क्या आप वाकई बाहर निकलना चाहते हैं?",
+  "macNotAssociated": "आपका MAC पता किसी भी प्लेलिस्ट से जुड़ा नहीं है",
+  "uploadPlaylist": "प्लेलिस्ट अपलोड करें",
+  "refresh": "रीफ्रेश करें",
+  "language": "भाषा (HI)",
+  "power": "पावर",
+
+  "playerNotActive": "यह प्लेयर अभी सक्रिय नहीं है। कंटेंट देखने के लिए अपनी सदस्यता सक्रिय करें।",
+  "activateNow": "अभी सक्रिय करें",
+
+  "macLabel": "आपका MAC",
+  "tvOnlyWarning": "WisePlayer.app केवल एक टीवी प्लेयर है और इसमें कोई चैनल शामिल नहीं हैं"
+}

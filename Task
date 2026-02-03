@@ -27,3 +27,42 @@ Move hardcoded endpoint strings to the Endpoints constants for consistency.
 Support optional headers (device token and fingerprint) in validateStatus via parameters.
 Add unit tests with mocked Dio client to verify success and failure scenarios.
 Introduce a base API method wrapper to standardize all POST requests and reduce boilerplate.
+
+
+TODO: D:\AndroidProjects\wise_players\lib\presentation\screen_view\common\movis\movies_screen.dart
+Build a responsive media streaming UI supporting TV, tablet, and mobile layouts.
+Display media items in an animated grid with hover, focus, and scale effects.
+Implement favorite toggle functionality using Riverpod state management.
+
+Show ratings, quality badges, and metadata overlays on media cards.
+Handle keyboard focus navigation for TV and large-screen devices.
+Open a media detail dialog with description and play action on card tap.
+Provide a category sidebar with focus, selection, and item counts.
+Filter media items dynamically based on selected category.
+Enable search-based filtering across media titles using Riverpod providers.
+Manage async media loading, empty state, and error handling UI.
+Simulate backend integration using a mock media service layer.
+Structure the app with Riverpod providers for categories, favorites, and media.
+Optimize UI transitions using AnimatedContainer, AnimatedScale, and gradients.
+Support favorites persistence logic via a StateNotifier pattern.
+Prepare codebase for real API integration with HTTP service abstraction.
+
+
+TODO: D:\AndroidProjects\wise_players\lib\presentation\screen_view\common\content_option_tv\content_option_tv.dart
+Build a responsive content options screen optimized for TV, tablet, and mobile.
+Handle TV remote and keyboard input using RawKeyboardListener.
+Display active playlist details and expiry information in the header.
+Render a focus-aware main menu grid with animated menu cards.
+Enable navigation to Movies screen and other content sections.
+Implement focus management and selection tracking for TV navigation.
+Show action buttons row with refresh, language, settings, and exit options.
+Provide visual focus feedback for buttons and menu items.
+Display device MAC address for user identification.
+Show legal disclaimer/footer message for app usage.
+Support gesture and tap interactions alongside remote control input.
+Apply animated scaling and transitions for better UX.
+Centralize action handling and navigation feedback via SnackBars.
+Constrain layout width for large-screen TV optimization.
+Maintain clean separation of UI builders for readability and reuse.
+
+
