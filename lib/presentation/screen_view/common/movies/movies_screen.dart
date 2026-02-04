@@ -33,7 +33,6 @@ class _MediaCardState extends ConsumerState<MediaCard> {
       child: Builder(
         builder: (context) {
           final isFocused = Focus.of(context).hasFocus;
-
           return MouseRegion(
             onEnter: (_) => setState(() => _isHovered = true),
             onExit: (_) => setState(() => _isHovered = false),
